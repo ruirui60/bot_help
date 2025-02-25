@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    user-select: none;
 }
 header {
     background-color: #ecc948;
@@ -46,11 +47,10 @@ footer {
 }
 .card {
     position: relative;
-    /* 設定相對定位 */
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px 30%;
+    box-shadow: 20px 20px 20px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px 30%;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
@@ -77,9 +77,9 @@ footer {
 }
 
 .card img {
-    border-radius: 15px;
-    max-width: 100%;
-    max-height: 500px;
+    border-radius: 20px;
+    max-width: 400px;
+    max-height: 300px;
     object-fit: contain;
 }
 
