@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #52476a;
     padding-top: 80px;
+    padding-bottom: 80px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -31,7 +32,7 @@ footer {
     background-color: #2d2d2d;
     color: #ffffff;
     text-align: center;
-    padding: 2px;
+    padding: 5px 0;
     font-size: 12px;
     position: fixed;
     bottom: 0;
